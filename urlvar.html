@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+function processForm(form) {
+   window.location = "http://localhost:4567/" + form.url.value;
+   return false;
+}
+</script>
+
+<form onsubmit="return processForm(this);">
+<input type="text" name="url" /><input type="submit" value="Submit" />
+</form>
+
+</body>
+</html>

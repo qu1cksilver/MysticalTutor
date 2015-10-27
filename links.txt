@@ -1,0 +1,6 @@
+qu!cksilver: http://www.sinatrarb.com/extensions.html
+qu!cksilver: https://www.safaribooksonline.com/library/view/sinatra-up-and/9781449306847/ch04.html
+qu!cksilver: http://www.padrinorb.com/guides/standalone-usage-in-sinatra
+qu!cksilver: http://blog.carbonfive.com/2013/06/24/sinatra-best-practices-part-one/
+qu!cksilver: http://stackoverflow.com/questions/4681199/how-mix-in-routes-in-sinatra-for-a-better-structure
+qu!cksilver: http://sklise.com/2013/03/08/sinatra-warden-auth/

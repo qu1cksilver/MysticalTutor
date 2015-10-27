@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>9:30 Show</title>
+	<link rel="stylesheet" href="http://current.bootstrapcdn.com/bootstrap-v204/css/bootstrap-combined.min.css">
+</head>
+<body>
+	<div class="span8">
+    <!-- This is table layout is pulled directly from twitter bootstrap -->
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Preço/Quantidade</th>
+          </tr>
+        </thead>
+        <tbody>
+        <% @product.each do | item | %>
+          <tr>          
+          	<td><%= item.at_css('.name').text %></td>
+          	<td><%= item.at_css('.price').text %></td>
+          </tr>
+         <% end %>
+        </tbody>
+      </table>
+    </div>
+</body>
+</html>
